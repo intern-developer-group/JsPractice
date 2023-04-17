@@ -1,0 +1,27 @@
+1. to print hi in console
+ 	console.log("hi")
+
+2. to use variable to store value
+	var fruit = "apple";(string)
+	var number = 34;(number)
+	var to = false;(bool)
+	console.log(fruit); to print variable.
+
+3. we can also print like
+	console.log("this is " + fruit);
+
+   alternative better choice is interpolation(name)
+	console.log(`
+	fruit is : ${fruit}
+	number is : ${number}
+	`)
+
+4. Ternary operator
+
+	var authent = true;
+	authent ? console.log("true") : console.log("false");
+	
+5. Function is generally used inside a variable.
+
+6. myName = "Hitesh"; 
+	There is a globalcontext when run in browser (window.myName) will work.

@@ -1,0 +1,13 @@
+To get today date with time
+let today = new Date();
+
+To get date from whole date
+let dd = today.getDate();
+
+To print whole window
+function print{
+window.print();
+}
+
+To get document url
+console.log(document.URL);
