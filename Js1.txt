@@ -25,3 +25,28 @@
 
 6. myName = "Hitesh"; 
 	There is a globalcontext when run in browser (window.myName) will work.
+
+7. A generator is like a regular function except that −
+
+	The function can yield control back to the caller at any point.
+
+	When you call a generator, it doesn’t run right away. Instead, you get back an iterator. 
+	The function runs as you call the iterator’s next method.
+	
+	function* rainbow() { 
+   	// the asterisk marks this as a generator 
+   	yield 'red'; 
+   	yield 'orange'; 
+   	yield 'yellow'; 
+   	yield 'green'; 
+   	yield 'blue'; 
+   	yield 'indigo'; 
+   	yield 'violet'; 
+	} 
+	for(let color of rainbow()) { 
+   	console.log(color); 
+	} 
+
+	yeild of generator function is almost equal to return of function.
+	Note − Generator functions cannot be represented using arrow functions.
+8. 
