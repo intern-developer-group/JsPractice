@@ -6,13 +6,13 @@ function Student(rollno,firstName,lastName) {
        setTimeout(function(){
           //creates a new instance of this ,hides outer scope of this
           console.log(this.firstName+ " "+this.lastName)
-       },2000)
+       },1000)
     }
     this.fullNameUsingArrow = function(){
        setTimeout(()=>{
           //uses this instance of outer scope
           console.log(this.firstName+ " "+this.lastName)
-       },3000)
+       },2000)
     }
  }
  const s1 = new Student(101,'Mohammad','Mohtashim')
