@@ -18,3 +18,8 @@ function Student(rollno,firstName,lastName) {
  const s1 = new Student(101,'Mohammad','Mohtashim')
  s1.fullNameUsingAnonymous();
  s1.fullNameUsingArrow();
+
+ void function iife_void() { 
+   var msg = function () {console.log("hello world")}; 
+   msg(); 
+}();
